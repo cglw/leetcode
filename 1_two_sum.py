@@ -15,5 +15,3 @@ class Solution(object):
                 if i != j and (nums[i] + nums[j]) == target:
                     return [i, j]
         return []
-
-
